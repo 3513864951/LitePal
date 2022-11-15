@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".Register">
+<!--<Button-->
+<!--    android:layout_width=""-->
+<!--    android:layout_height=""-->
+<!--    左上角-->
+<!--    一个返回上一个界面的按钮/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:background="#00000000"
+            android:paddingBottom="15dp"
+            android:text="登录"
+            android:layout_marginLeft="130sp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+
+
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:text="Account"
+        android:textSize="36sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="26sp"
+            android:hint="请输入手机号码/账号" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Password"
+        android:textSize="36sp" />
+    <EditText
+        android:id="@+id/NewAccount"
+        android:layout_width="400dp"
+        android:layout_height="50sp"
+        android:textSize="26sp"
+        android:layout_gravity="center_vertical"
+        android:hint="请输入密码" />
+    <EditText
+        android:id="@+id/NewAccountTwice"
+        android:layout_width="400dp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_vertical"
+        android:textSize="26sp"
+        android:hint="请再次输入密码" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="center"
+        android:background="@drawable/test"
+        android:text="注册"
+        />
+</LinearLayout>
